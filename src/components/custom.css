@@ -1,0 +1,39 @@
+.loginInputs {
+  max-width: 95%;
+  height: auto;
+}
+.login {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* #repliesHandlers {
+  border-left: 5px solid orange;
+} */
+
+.message {
+  flex: 1;
+  align-content: center;
+  border-radius: 5px;
+  background: #f5f5f5;
+  padding: 5px;
+  overflow: hidden;
+  max-width: 65%;
+  min-width: 25%;
+  min-height: 45px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.upload {
+  animation: upload-spin infinite 1s linear;
+}
+@keyframes upload-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
